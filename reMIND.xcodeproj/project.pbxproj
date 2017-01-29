@@ -12,6 +12,11 @@
 		FA99039A1E3E4B2100817F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9903991E3E4B2100817F57 /* Assets.xcassets */; };
 		FA99039D1E3E4B2100817F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA99039B1E3E4B2100817F57 /* LaunchScreen.storyboard */; };
 		FA9903A51E3E4D1B00817F57 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903A41E3E4D1B00817F57 /* ListViewController.swift */; };
+		FA9903A71E3E5F4300817F57 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903A61E3E5F4300817F57 /* TaskCell.swift */; };
+		FA9903A91E3E5F9F00817F57 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903A81E3E5F9F00817F57 /* IconCell.swift */; };
+		FA9903AB1E3E5FD800817F57 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903AA1E3E5FD800817F57 /* HeaderView.swift */; };
+		FA9903AD1E3E625A00817F57 /* IconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903AC1E3E625A00817F57 /* IconsViewController.swift */; };
+		FA9903AF1E3E658500817F57 /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9903AE1E3E658500817F57 /* TaskManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FA99039C1E3E4B2100817F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA99039E1E3E4B2100817F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA9903A41E3E4D1B00817F57 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		FA9903A61E3E5F4300817F57 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		FA9903A81E3E5F9F00817F57 /* IconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		FA9903AA1E3E5FD800817F57 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA9903AC1E3E625A00817F57 /* IconsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsViewController.swift; sourceTree = "<group>"; };
+		FA9903AE1E3E658500817F57 /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,15 @@
 			children = (
 				FA9903921E3E4B2100817F57 /* AppDelegate.swift */,
 				FA9903A41E3E4D1B00817F57 /* ListViewController.swift */,
+				FA9903AC1E3E625A00817F57 /* IconsViewController.swift */,
 				FA9903961E3E4B2100817F57 /* Main.storyboard */,
+				FA9903A61E3E5F4300817F57 /* TaskCell.swift */,
+				FA9903A81E3E5F9F00817F57 /* IconCell.swift */,
+				FA9903AA1E3E5FD800817F57 /* HeaderView.swift */,
 				FA9903991E3E4B2100817F57 /* Assets.xcassets */,
 				FA99039B1E3E4B2100817F57 /* LaunchScreen.storyboard */,
 				FA99039E1E3E4B2100817F57 /* Info.plist */,
+				FA9903AE1E3E658500817F57 /* TaskManager.swift */,
 			);
 			path = reMIND;
 			sourceTree = "<group>";
@@ -136,7 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9903AB1E3E5FD800817F57 /* HeaderView.swift in Sources */,
+				FA9903AD1E3E625A00817F57 /* IconsViewController.swift in Sources */,
 				FA9903A51E3E4D1B00817F57 /* ListViewController.swift in Sources */,
+				FA9903A71E3E5F4300817F57 /* TaskCell.swift in Sources */,
+				FA9903A91E3E5F9F00817F57 /* IconCell.swift in Sources */,
+				FA9903AF1E3E658500817F57 /* TaskManager.swift in Sources */,
 				FA9903931E3E4B2100817F57 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
